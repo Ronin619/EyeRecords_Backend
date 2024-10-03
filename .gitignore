@@ -1,0 +1,46 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Environment variables
+.env*
+
+# Build artifacts
+dist/
+out/
+build/
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# IDE-specific files
+.idea/
+.vscode/
+*.iml
+*.suo
+*.user
+*.sln
+*.pdb
+
+# env
+.env

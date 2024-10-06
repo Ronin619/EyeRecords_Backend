@@ -3,7 +3,7 @@ dotenv.config({ path: "./.env" });
 
 import express from "express";
 import cors from "cors";
-import sequelize from "./database.connect";
+import sequelize from "./utils/database.connect";
 
 const app = express();
 const port = process.env.PORT || 3000;
